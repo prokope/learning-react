@@ -1,4 +1,5 @@
 import Counter from "./Counter";
+import About from "./About";
 
 export default function App() {
   return (
@@ -7,6 +8,7 @@ export default function App() {
         Exemplo React: Contador
       </h1>
       <Counter />
+      <About name="Paul" age={19}/>
     </div>
   );
 }
