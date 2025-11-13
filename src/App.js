@@ -2,6 +2,7 @@ import './App.css'
 import Header from "./Header"
 import Objective from "./Objective";
 import About from "./About"
+import Projects from "./Projects"
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Header />
       <Objective name="Paul"/>
       <About />
+      <Projects />
     </div>
   );
 }
